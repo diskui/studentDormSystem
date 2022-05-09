@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>学生宿舍管理系统</title>
+    <!-- Bootstrap以及Jquery引入 -->
+    <link rel="stylesheet" href="./css/Admin_Login.css" type="text/css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css" />
+	<script src="./js/jquery-3.6.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/Admin_LoginCheck.js"></script>
+  </head>
+  <body>
+  
+	<video id="background" autoplay loop muted><!-- 动态背景-->
+  			<source src="./picture/Login/background.mp4" type="video/mp4"  />
+	</video>
+	
+  	<div class="container-fluid"><!-- 布局容器-->
+  	
+  		<div class="row" id="row1"><!-- 第一行 -->
+    		<div class="col-md-4"><!-- 河南大学图标 -->
+    			<img  src="./picture/Login/logo.png" id="logo">
+    			<a href="http://www.henu.edu.cn/" target="_blank"><img  src="./picture/Login/henu.png" id="henu"></a>
+    		</div><!-- @河南大学图标 -->
+    		<div class="col-md-8"><!-- 系统标题 -->
+    			<div id="title">学生宿舍管理系统</div>
+    		</div><!-- @系统标题 -->
+   	 	</div><!-- @第一行 -->
+   	 	
+   	 	<div class="row" id="row2"><!-- 第二行 -->
+   	 		<a id="changeId" href="Student_Login.html">学生登入</a>
+   	 	</div><!-- @第二行 -->
+   	 	
+   	 	<div class="row" id="row3"><!-- 第三行 -->
+   	 		<!-- 此行是为了控制页面分布，并无实际作用 -->
+   	 	</div><!-- @第三行 -->
+   	 	
+   	 	<div class="row" id="row4"><!-- 第四行 -->
+   	 		<div class="col-md-4 col-md-offset-4" id="formback">
+   	 			<form class="form-horizontal" id="form-horizontal" onsubmit="return formCheck()" action="AdminCheck"><!-- 表单 -->
+   	 			
+   	 				<div id="formhead">管理员登入</div>
+   	 			
+			   	   <div class="form-group" id="form-group-adminnumb">
+				    <label class="col-sm-2 control-label">工号</label>
+				    <div class="col-sm-10">
+				      <input class="form-control" id="adminnumb" placeholder="请输入工号" onblur="adminnumbCheck()" name="adminnumb">
+				    </div>
+				  </div>
+				  
+				  <div class="form-group"  id="form-group-password">
+				    <label for="password" class="col-sm-2 control-label">密码</label>
+				    <div class="col-sm-10">
+				      <input type="password" class="form-control" id="password" placeholder="请输入密码"onblur="passwordCheck()" name="password">
+				    </div>
+				  </div>
+				  
+				  <div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <button type="submit" class="btn btn-default" id="submit">登入</button>
+				    </div>
+				  </div>
+				  
+				</form><!-- @表单 -->
+   	 		</div>
+   	 	</div><!-- @第四行 -->
+   	 	
+   	 	<div class="row" id="row5"><!-- 第五行 -->
+   	 		<!-- 此行是为了控制页面分布，并无实际作用 -->
+   	 	</div><!-- @第五行 -->
+   	 	
+   	 	<div class="row" id="row6"><!-- 第六行 -->
+   	 		<div id="groupname">@小组成员：谢昊宸   孟子归   杨浩  戚文豪  刘佳奇</div>
+   	 	</div><!-- 第六行 -->
+	</div><!-- @布局容器-->
+  </body>

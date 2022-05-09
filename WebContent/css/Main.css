@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.show_list{display: block;}
+.hide_lits{display: none;}
+#logo
+{height: 50px;width: 50px;margin-left: 0px;}
+.logo
+{margin-left: 0px;}
+#time
+{margin-right: 50px;font-size: 20px;color: #2fb9d4;font-family: 'yjsz'}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+ #background
+ {position: fixed;   right: -50px;   bottom: -100px;  min-width: 100%;  min-height: 100%;  height: auto;  width: auto;  z-index:-11;
+           /*加滤镜*/
+           /*filter: blur(15px); //背景模糊设置 */
+           /*-webkit-filter: grayscale(100%);*/ 
+           /*filter:grayscale(100%); //背景灰度设置*/ 
+}  
+#row1
+{height:125px;}
+#row2
+{height:30px;}
+#row3
+{height:150px;}
+#row4
+{height:218px;}
+#row5
+{height:290px;}
+#row6
+{height:21px;}
+#logo
+{height: 115px;margin-left: 25px; margin-top: 5px;}
+#henu
+{height: 115px;margin-left: 20px; margin-top: 5px;}
+#title
+{font-family: STXingkai;font-size: 100px;color: white;margin-left: 220px;height: 125px;}
+#changeId
+{margin-left: 1590px;margin-top: 1px;color: white;}
+#formback
+{background-color: rgba(255,255,255,0.6);border-radius: 40px;}
+#form-horizontal
+{margin-top: 20px;}
+#formhead
+{font-size: 25px; margin-left: 225px; font-family: Microsoft YaHei;font-weight: bold;}
+#form-group-studentnumb
+{margin-top: 10px; margin-left: 45px;}
+#studentnumb
+{width: 270px;}
+#form-group-password
+{margin-top: 10px; margin-left: 45px;}
+#password
+{width: 270px;}
+#submit
+{margin-left: 145px; font-weight: bold; width: 60px;}
+#groupname
+{color: white; margin-left: 710px; font-family: STZhongsong;}

@@ -1,0 +1,4 @@
+@charset "UTF-8";
+legend { display: block; width:100px; border-bottom:0px; font-family: "Microsoft YaHei","Helvetica Neue";}
+legend a{ color:#666;} legend a:hover{ text-decoration:none;}
+.layui-table{ font-family: "Microsoft YaHei","Helvetica Neue";}

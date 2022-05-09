@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta charset="utf-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="./css/x-admin.css" media="all" />
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<title>苑区风景</title>
+ </head>
+ <body>
+ 	<div class="x-body">
+ 		<blockquote class="layui-elem-quote"><!-- 欢迎 -->
+        	<span style="font-size: 20px;">苑区风景！</span>
+   		 </blockquote>
+   		 
+		<div class="isg__Img__wrap" id="wrap" style="height: 540px;width:1370px;margin-top: 50px;">
+		</div>
+		
+	</div>
+	
+	<script src="./assets/js/data.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script>
+        const img = new $isg_Img({
+            data:data,
+            curType: '全部',
+            parasitifer: '#wrap'
+        });
+     </script>
+ </body>
+</html>
